@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.search {
+  padding-bottom: 10px;
+}
+
+.results {
+  padding-bottom: 50px;
+}
+
+.results > div {
+  padding-bottom: 10px;
+}
+
+.result-card {
+  width: 600px;
+  margin: 0 auto;
+}

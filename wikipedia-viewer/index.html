@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='utf-8'>
+	<meta name="title" content="Eric Otto | Wikipedia Viewer">
+	<meta name="description" content="A frontend for wikipedia queries">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">	
+	<!-- Custom CSS -->
+	<link href="style.css" rel="stylesheet">
+	</script>
+</head>
+<body>
+	<div class="header"> 
+		<h1>Wikipedia Viewer</h1>
+    <div>
+		  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="random">Random Article</button>
+    </div>
+    <div>
+      <form id="search" class="search">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input id="query" type="text" class="mdl-textfield__input">
+          <label for="query" class="mdl-textfield__label">Search Wikipedia for...</label>
+        <div>
+      </form>
+    </div>
+    </div>
+	</div>
+	<div id="results" class="results">
+	</div>
+	<!-- J Query -->
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>	
+	<!-- Custom JS -->
+	<script src="script.js"></script>
+</body>
+</html>
