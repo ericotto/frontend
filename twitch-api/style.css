@@ -1,0 +1,81 @@
+.container {
+  width: 400px;
+  background-color: gray;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-primary {
+  text-align: center;
+  color: black;
+}
+
+.nav-pills > li {
+  float: none;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.nav-pills {
+  text-align:center;
+}
+
+.nav-pills > li > a {
+  color: black;
+}
+
+.input-group {
+  margin: 10px 80px 25px 80px;
+}
+
+.channels > div {
+  color: black;
+  font-size: 18px;
+}
+
+.channels > div > img {
+  margin: 10px 20px;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.channels > div > p {
+  display: inline-block;
+}
+
+.name {
+  vertical-align: center;
+  color: black;
+  display: inline-block;
+}
+
+.name-undefined {
+  vertical-align: 70%;
+  color: black;
+  display: inline-block;
+}
+
+.glyphicon-user {
+  color: black;
+  font-size: 50px;
+  margin: 10px 20px;
+  border-radius: 25px;
+}
+
+.glyphicon-ok {
+  color: green;
+  display: inline-block;
+  float: right;
+  margin: 0px 10px;
+}
+
+.glyphicon-remove {
+  color: DimGray;
+  display: inline-block;
+  float: right;
+  margin: 25px 10px;
+}

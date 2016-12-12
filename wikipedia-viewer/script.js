@@ -7,7 +7,7 @@ $('#search').submit( function(event){
 });
 
 $('#random').click( function() {
-    window.location.replace("https://en.wikipedia.org/wiki/Special:Random");
+    window.location = "https://en.wikipedia.org/wiki/Special:Random";
 })
 
 function searchWikipedia(query) {

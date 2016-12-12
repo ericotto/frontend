@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: grey;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+.wrapper {
+  text-align: center;
+}
+
+button {
+  background: grey;
+  border-radius: 30px;
+  margin: 30px;
+  border-color: grey;
+  color: black;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+}
+
+.quote {
+  text-align: center;
+  padding: 30px;
+  border-style: solid; 
+  margin: auto;
+  margin-bottom: 100px;
+  color: white;
+  border-color: grey;
+  height: 100px;
+  width: 500px;
+}

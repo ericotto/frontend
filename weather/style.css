@@ -1,0 +1,30 @@
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg);
+}
+
+.wrapper{
+  margin: 50px auto;
+  height: 300px;
+  position: relative;
+  width: 600px;
+  background: grey;
+  border-radius: 40px;
+  opacity: 0.8
+}
+
+.text-primary {
+  text-align: center;
+  padding: 15px;
+  color: black;
+}
+
+.location {
+  text-align: center;
+  color: black;
+}
+
+.weather {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
