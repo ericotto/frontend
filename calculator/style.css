@@ -1,0 +1,83 @@
+@font-face {
+ font-family: 'digital-font';
+ src: url('fonts/digital-7.ttf')  format('truetype');
+}
+
+.calculator {
+    height: 300px;
+    width: 550px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkslategray;
+    border-radius: 7px;
+}
+
+
+.display {
+    margin: 40px;
+    height: 100px;
+    width: 200px;
+    border: 6px solid gray;
+    border-radius: 2px;
+    background-color: darkseagreen;
+}
+
+.display > p {
+    font-family: digital-font;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.keypad {
+    position: relative;
+    padding: 100px; 
+    margin-left: 275px;
+    margin-top: -150px;
+}
+
+td > button {
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: lightGray;
+    margin: 5px;
+}
+
+button {
+    outline: none;
+}
+
+.solve {
+    background-color: lightgreen;
+}
+
+.clear {
+    background-color: lightcoral;
+}
+
+.operator {
+    background-color: dimGray;
+}
+
+.logo {
+    position: relative;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -40px;
+    margin-right: 350px;
+    border: 2px solid gray;
+    background-color: lightslategray;
+    border-radius: 4px;
+}
+
+.logo > p {
+    color: lightGray;
+    font-size: 30px;
+    margin-left: 9px;
+    margin-bottom: 3px;
+}
