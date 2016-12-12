@@ -1,0 +1,43 @@
+<!doctype html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="title" content="Eric Otto | Pomodoro Timer">
+    <meta name="description" content="Pomodoro timer for better productivity">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Otto | Pomodoro</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet"></script>
+  </head>
+  <body class="container text-center">
+    <div class="main text-center">
+        <h1>Pomodoro Timer</h1>
+        <form>
+            <label for="session_time">Session</label>
+            <input id="session_time" type="number" min="1">
+            <br>
+            <label for="break_time">Break</label>
+            <input id="break_time" type="number" min="1">
+            <br>
+            <div id="button">
+                <button id="start" type="submit">Start</button>
+                <button id="stop" type="submit">Reset</button>
+            </div>
+        </form>
+        <div class="timer">
+            <div class="session-countdown">
+                <span id="session_status">Session</span>
+                <br>
+                <span id="time_left">25:00</span>
+            <div>
+        </div>
+    </div>
+    <!-- J Query -->
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

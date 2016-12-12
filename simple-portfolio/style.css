@@ -1,0 +1,40 @@
+.jumbotron{
+  background-color: grey;
+}
+
+.jumbotron h1{
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.jumbotron p{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.row-fluid {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.row-fluid img {
+  width: 200px;
+  height: 200px;
+}
+
+.glyphicon {
+  font-size: 150px;
+}
+
+.row-fluid h3 {
+  padding-bottom: 50px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}

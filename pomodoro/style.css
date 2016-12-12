@@ -1,0 +1,38 @@
+.main {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    width: 500px;
+    height: 330px;
+    border-radius: 100px;
+    color: black;
+}
+
+.main > h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.main > form > input {
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.timer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: inline;
+    border-radius: 50px;
+}
+
+.session-countdown {
+    padding-top: 25px;
+    font-size: 20px;
+    color: black;
+}
